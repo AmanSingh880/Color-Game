@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe Game</title>
+    <link rel="stylesheet" href="Source/style.css">
+</head>
+<body>
+    <div class="nav-h">
+        <div class="nav-c">
+            <a href="index.html">Restart Game</a>
+        </div>
+        <div class="nav-c">
+            <a href="Source/abo.html">About</a>
+        </div>
+    </div>
+    <div class="div2">
+        <h1>Welcome to tic tac toe Game</h1>
+        <div>
+            <h2>
+                <a href="Source/index2.html">
+                    <button>
+                    Play with computer
+                    </button>
+                </a>
+            </h2>
+        </div>
+        <h3 id="play-dis">Player 1 Turn !</h3>
+    </div>
+    <div class="box-ha" id="gameBoard">
+        <h3 id="win-dis"></h3>
+        <div class="box-h">
+            <div class="box-p">
+                <div class="box-c" onclick="placeMarker(0, 0)"></div>
+                <div class="box-c" onclick="placeMarker(0, 1)"></div>
+                <div class="box-c" onclick="placeMarker(0, 2)"></div>
+            </div>
+            <div class="box-p">
+                <div class="box-c" onclick="placeMarker(1, 0)"></div>
+                <div class="box-c" onclick="placeMarker(1, 1)"></div>
+                <div class="box-c" onclick="placeMarker(1, 2)"></div>
+            </div>
+            <div class="box-p">
+                <div class="box-c" onclick="placeMarker(2, 0)"></div>
+                <div class="box-c" onclick="placeMarker(2, 1)"></div>
+                <div class="box-c" onclick="placeMarker(2, 2)"></div>
+                
+            </div>
+        </div>
+    </div>
+    <right>
+        <h2>Developer : Aman Singh </h2>
+        </right>
+    <script src="Source/script.js"></script>
+</body>
+</html>
